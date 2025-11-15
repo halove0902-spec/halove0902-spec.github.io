@@ -15,7 +15,7 @@ function Main() {
               <img src={logo} alt="logo" />
             </div>
             <h1>TYCA 더청년컨설팅연대</h1>
-            <p>the youth consulting alliance</p>
+            <p>The Youth Consulting Alliance</p>
           </div>
         </div>
 
