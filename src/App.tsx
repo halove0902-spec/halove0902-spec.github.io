@@ -1,15 +1,10 @@
-import { BrowserRouter, Routes, Route } from 'react-router';
-
-import Layout from './routes/Layout';
+import { RouterProvider } from 'react-router';
+import { router } from './router';
 
 function App() {
   return (
     <>
-      <BrowserRouter basename="/tyca">
-        <Routes>
-          <Route path="/" element={<Layout />} />
-        </Routes>
-      </BrowserRouter>
+      <RouterProvider router={router} />
     </>
   );
 }
