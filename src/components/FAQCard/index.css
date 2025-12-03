@@ -83,12 +83,12 @@
 /* ---------------------------------- */
 
 /* 1. 배경색, 선 색상 변화 */
-.faq-collapse-icon:hover,
+/* .faq-collapse-icon:hover, */
 .faq-collapse-icon.active {
   background-color: var(--hover-bg); /* 하늘색 */
 }
-.faq-collapse-icon:hover .line,
-.faq-collapse-icon:hover .line::after,
+/* .faq-collapse-icon:hover .line,
+.faq-collapse-icon:hover .line::after, */
 .faq-collapse-icon.active .line,
 .faq-collapse-icon.active .line::after {
   background-color: var(--hover-color); /* 파란색 */
@@ -97,12 +97,12 @@
 /* 2. + 모양에서 x 모양으로 변형 */
 
 /* 중앙선: 수직선으로 변형 */
-.faq-collapse-icon:hover .line,
+/* .faq-collapse-icon:hover .line, */
 .faq-collapse-icon.active .line {
   transform: rotate(45deg); /* 90도 회전하여 수직선으로 만듭니다. */
 }
 
-.faq-collapse-icon:hover .line::after,
+/* .faq-collapse-icon:hover .line::after, */
 .faq-collapse-icon.active .line::after {
   /* 중앙으로 이동 후, 반시계 방향 45도 회전 */
   transform: rotate(90deg);
