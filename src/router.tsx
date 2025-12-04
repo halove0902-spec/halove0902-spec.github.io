@@ -1,7 +1,9 @@
 import { createBrowserRouter } from 'react-router';
+import ErrorPage from './error-page';
 import Layout from './routes/Layout';
 import Main from './routes/Main';
-import ErrorPage from './error-page';
+import Instructor from './routes/Instructor';
+import Contact from './routes/Contact';
 
 export const router = createBrowserRouter(
   [
@@ -13,6 +15,14 @@ export const router = createBrowserRouter(
         {
           index: true,
           element: <Main />,
+        },
+        {
+          path: '/instructor',
+          element: <Instructor />,
+        },
+        {
+          path: '/contact',
+          element: <Contact />,
         },
       ],
     },

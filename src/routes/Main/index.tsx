@@ -66,7 +66,7 @@ function Main() {
                 합니다.
               </p>
             </div>
-            <Link className="btn icon primary" to={'/consulting'}>
+            <Link className="btn icon primary" to={'/contact'}>
               <img src={vectorStroke} />
             </Link>
           </div>
@@ -80,7 +80,7 @@ function Main() {
                 빠지지 않도록 내면의 힘을 기르는 데 효과적인 방법입니다.
               </p>
             </div>
-            <Link className="btn icon primary" to={'/consulting'}>
+            <Link className="btn icon primary" to={'/contact'}>
               <img src={vectorStroke} />
             </Link>
           </div>
@@ -94,7 +94,7 @@ function Main() {
                 있는 멘탈을 강화함으로써 치유 효과를 얻을 수 있습니다.
               </p>
             </div>
-            <Link className="btn icon primary" to={'/consulting'}>
+            <Link className="btn icon primary" to={'/contact'}>
               <img src={vectorStroke} />
             </Link>
           </div>

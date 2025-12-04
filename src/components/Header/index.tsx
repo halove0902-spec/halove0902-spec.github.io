@@ -13,25 +13,25 @@ function Header() {
         </div>
         <ul className="nav gap-[2vw]">
           <li>
-            <Link className={stNavLink} to="/about">
+            <Link className={stNavLink} to="/">
               협회소개
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link className={stNavLink} to="/consulting">
               청년심리상담
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link className={stNavLink} to="/instructor">
               강사소개
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link className={stNavLink} to="/notice">
               공지사항
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link className={stNavLink} to="/contact">
               문의
