@@ -124,7 +124,7 @@ function Main() {
 
         <Spacing size={70} />
 
-        <div className="flex flex-col items-end">
+        <div className="content flex-col items-end">
           {faqList.map((item, index) => (
             <FAQCard key={index} question={item.q} answer={item.a} />
           ))}

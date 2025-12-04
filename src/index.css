@@ -64,7 +64,7 @@ h5 {
 .btn-wrap {
   display: flex;
   align-items: flex-end;
-  padding: 0 1rem;
+  padding-left: 1rem;
 }
 
 .btn {
@@ -109,6 +109,7 @@ h5 {
 .btn.primary {
   --bs-btn-bg: var(--bs-primary);
   --bs-btn-border-color: var(--bs-primary);
+  --bs-btn-color: white;
 }
 
 .btn.icon {
