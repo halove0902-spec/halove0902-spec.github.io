@@ -1,0 +1,30 @@
+{
+  "short_name": "TYCA",
+  "name": "TYCA: The Youth Consulting Alliance",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "hero_image.jpg",
+      "type": "image/jpeg",
+      "sizes": "4096x2730"
+    },
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "128x48"
+    },
+    {
+      "src": "Icon_Tel.png",
+      "type": "image/png",
+      "sizes": "18x18"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
