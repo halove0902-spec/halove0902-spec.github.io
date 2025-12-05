@@ -28,6 +28,6 @@ export const router = createBrowserRouter(
     },
   ],
   {
-    basename: 'tyca',
+    // basename: 'tyca',
   }
 );
