@@ -1,5 +1,5 @@
 const contactUrl: string =
-  'https://script.google.com/macros/s/AKfycbz8wKsDoNPlMOKTXk-u6e4rNIFB-KGdt9JyI_t2Kt1ybZiXHhkR9wPYp9HU5Apqc4GY/exec';
+  'https://script.google.com/macros/s/AKfycbyBZILoSEIB5LEIdMmB2p_Zdt_ruc8UjZTU88zchqV6zg66-FqVPU3gMmXV1mYb-yN4/exec';
 
 export function contactSubmit(
   name: string,
