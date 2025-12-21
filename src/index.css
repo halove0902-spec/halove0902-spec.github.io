@@ -33,6 +33,7 @@ h5 {
   line-height: 140%;
   letter-spacing: -2.5%;
   color: #111111;
+  margin-bottom: 0.5rem;
 }
 
 h1 {
@@ -63,6 +64,10 @@ h5 {
 
 img {
   height: 100%;
+}
+
+p {
+  margin-bottom: 0.25rem;
 }
 
 .btn-wrap {
