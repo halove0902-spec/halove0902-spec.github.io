@@ -17,11 +17,11 @@ function Header() {
               협회소개
             </Link>
           </li>
-          {/* <li>
-            <Link className={stNavLink} to="/consulting">
-              청년심리상담
+          <li>
+            <Link className={stNavLink} to="/program">
+              치료프로그램
             </Link>
-          </li> */}
+          </li>
           <li>
             <Link className={stNavLink} to="/instructor">
               강사소개
