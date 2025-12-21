@@ -61,6 +61,10 @@ h5 {
   font-size: 1.25rem;
 }
 
+img {
+  height: 100%;
+}
+
 .btn-wrap {
   display: flex;
   align-items: flex-end;

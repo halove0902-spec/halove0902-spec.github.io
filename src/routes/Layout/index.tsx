@@ -9,8 +9,6 @@ function Layout() {
     <>
       <Header />
 
-      <Spacing />
-
       <Outlet />
 
       <Spacing size={130} />

@@ -9,7 +9,9 @@ function Header() {
     <>
       <header>
         <div className="logo">
-          <img src={logo} alt="logo" />
+          <Link to="/">
+            <img src={logo} alt="loFgo" />
+          </Link>
         </div>
         <ul className="nav gap-[2vw]">
           <li>
