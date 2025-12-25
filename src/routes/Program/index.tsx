@@ -1,16 +1,30 @@
 import Spacing from '../../components/Spacing';
 
 function program() {
+  const scrolling = (id: string): void => {
+    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <div className="main-container">
       <div>
         <h3>치료프로그램</h3>
         <ul className="text-xl">
           <li>
-            <a href="#bibliotherapy">1. 독서치료</a>
+            <button
+              className="cursor-pointer"
+              onClick={() => scrolling('bibliotherapy')}
+            >
+              1. 독서치료
+            </button>
           </li>
           <li>
-            <a href="#PCIT">2. PCIT</a>
+            <button
+              className="cursor-pointer"
+              onClick={() => scrolling('PCIT')}
+            >
+              2. PCIT
+            </button>
           </li>
         </ul>
       </div>
