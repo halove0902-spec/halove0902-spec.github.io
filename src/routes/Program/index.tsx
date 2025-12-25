@@ -3,13 +3,23 @@ import Spacing from '../../components/Spacing';
 function program() {
   return (
     <div className="main-container">
-      <h3>치료프로그램</h3>
+      <div>
+        <h3>치료프로그램</h3>
+        <ul className="text-xl">
+          <li>
+            <a href="#bibliotherapy">1. 독서치료</a>
+          </li>
+          <li>
+            <a href="#PCIT">2. PCIT</a>
+          </li>
+        </ul>
+      </div>
 
       <Spacing size={50} />
 
       <div id="bibliotherapy" className="flex flex-col gap-8">
         <div>
-          <h4>독서치료(Bibliotherapy)</h4>
+          <h4>1. 독서치료(Bibliotherapy)</h4>
           <div>
             성인 대상 문학 작품(고전·소설·에세이)을 활용해 성인이 감정·사고·관계
             패턴을 이해하고 정리하도록 돕는 상담치료 기법 중 하나입니다.
@@ -71,7 +81,7 @@ function program() {
         </div>
 
         <div>
-          <h5>- 독서치료 과정</h5>
+          <h5>- 치료 과정</h5>
           <ul className="list-decimal ms-5 flex flex-col gap-3">
             <div>
               <li>초기 면담</li>
@@ -121,6 +131,116 @@ function program() {
               <li>종결 및 정리</li>
               <ul className="list-disc list-inside">
                 <li> 변화된 부분 확인, 앞으로의 유지 계획 설정</li>
+              </ul>
+            </div>
+          </ul>
+        </div>
+      </div>
+
+      <div id="PCIT" className="flex flex-col gap-8 mt-20">
+        <div>
+          <h4>2. PCIT(Parent-Child Interaction Therapy)</h4>
+          <div>
+            말 그대로 부모와 자녀 간의 긍정적이고 건강한 관계를 형성함으로써
+            부모의 양육태도와 저녀의 문제행동을 개선하는 상담치료기법 중
+            하나입니다.
+          </div>
+
+          <div>
+            미국 플로리다대학교의 Sheila Eyberg 박사가 창시한 부모 코칭 기법으로
+            미국에서 가장 영향력 있는 치료기법 중 하나입니다.
+          </div>
+        </div>
+
+        <div>
+          <h5>- PCIT의 장점</h5>
+          <ul className="list-disc ms-5">
+            <li>
+              공격적 행동, 반항, 주의력 부족 등과 같은 문제행동을 효과적으로
+              다루는데 도움을 줍니다.
+            </li>
+            <li>
+              부모와 자녀 간 상호작용을 개선하여 가족 간의 갈등을 감소시킵니다.
+            </li>
+            <li>
+              부모가 자녀를 더 효과적으로 양육할 수 있는 능력을 키워줍니다. 이는
+              부모의 자신감을 높여줍니다.
+            </li>
+            <li>
+              가족의 삶의 질을 향상시키는 데 도움을 줄 뿐만 아니라, 아동의
+              사회적, 정서적 발달에도 긍정적인 영향을 미칠 수 있습니다.
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h5>- 치료 대상</h5>
+          <ul className="list-disc ms-5">
+            <li>부모가 어떻게 대응해야 할지에 대한 지도가 필요한 경우</li>
+            <li>
+              부모와 자녀가 감정을 건강하게 표현하고 관리하는 방법을 배우기를
+              원할 때
+            </li>
+            <li>자녀의 행동이 일상생활에 부정적인 영향을 미칠 때</li>
+            <li>
+              부모와 자녀가 서로를 이해하고 상호작용하는 방법을 개선하려는 경우
+            </li>
+            <li>
+              가정 내에서 건강한 부모-자녀 간 상호작용을 구축하고자 하는 경우
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h5>- 치료 기간</h5>
+          <ul className="list-disc ms-5">
+            <li>권장: 주1회 총 12~15주</li>
+          </ul>
+        </div>
+
+        <div>
+          <h5>- 치료 과정</h5>
+          <ul className="list-decimal ms-5 flex flex-col gap-3">
+            <div>
+              <li>1회기 : 초기 면담</li>
+              <ul className="list-disc list-inside">
+                <li>
+                  부모와의 면담을 통해 아동의 문제행동을 평가하고, 부모가 가장
+                  불편함을 느끼는 핵심 증상을 치료목표로 설정합니다
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <li> 2~5회기 : CDI(Child-Directed Interaction)단계</li>
+              <ul className="list-disc list-inside">
+                <li>
+                  아동이 주도하는 놀이를 통해 부모는 자녀와의 상호작용에서 더
+                  효과적인 소통 기술을 배우고, 자녀의 긍정적인 행동을
+                  강화합니다.
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <li> 6~10회기 : PDI(Parent-Directed Interaction)단계</li>
+              <ul className="list-disc list-inside">
+                <li>
+                  부모가 주도하는 놀이를 통해 부모는 규칙과 한계를 설정하고 이를
+                  일관되게 적용하는 방법을 배웁니다. 이는 자녀의 문제행동을
+                  관리하고 제한하는 데 도움을 줍니다.
+                </li>
+              </ul>
+            </div>
+            <div>
+              <li> 11~최종회기 : 종결 및 졸업</li>
+              <ul className="list-disc list-inside">
+                <li>
+                  DPICS(Dyadic Parent-Child Interaction Coding System)를
+                  실시하여 10/10/10 조건을 만족하면 프로그램을 종결하고 졸업
+                  파티를 진행합니다. 부모는 배운 기술을 일상생활에 적용하며
+                  지속적으로 연습합니다.
+                </li>
               </ul>
             </div>
           </ul>
