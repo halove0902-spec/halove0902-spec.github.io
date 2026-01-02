@@ -7,10 +7,12 @@ import './index.css';
 import vectorStroke from '../../assets/Vector(Stroke).svg';
 import FAQCard from '../../components/FAQCard';
 import faqList from '../../assets/faq.json';
+import NoticeModal from '../NoticeModal';
 
 function Main() {
   return (
     <>
+      <NoticeModal />
       <div className="main-container">
         <div className="container">
           <div className="welcome">
@@ -33,7 +35,7 @@ function Main() {
         <Spacing size={120} />
 
         <div className="content">
-          <div className="flex-1">
+          <div className="flex-1 md:w-full">
             <h2>다양한 프로그램들</h2>
             <p>
               한국청년성장컨설팅연구소는 청소년들의 성장과 발전을 촉진하는
