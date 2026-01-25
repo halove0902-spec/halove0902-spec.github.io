@@ -73,7 +73,12 @@ p {
 .btn-wrap {
   display: flex;
   align-items: flex-end;
-  padding-left: 1rem;
+  padding-left: 0;
+}
+@media (width >= 48rem /* 768px */) {
+  .btn-wrap {
+    padding-left: 1rem;
+  }
 }
 
 .btn {
