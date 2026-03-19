@@ -2,8 +2,12 @@ form {
   margin-top: 20px;
 }
 
-form input,
-form textarea {
+.form-area {
+  width: 100%;
+}
+
+.form-area input,
+.form-area textarea {
   width: 100%;
   padding: 10px;
   margin: 10px 0;
