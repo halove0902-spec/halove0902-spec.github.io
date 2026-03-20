@@ -117,11 +117,11 @@ function Main() {
               010-4668-0739
             </p>
           </div>
-          <div className="btn-wrap">
+          {/* <div className="btn-wrap">
             <Link className="btn" to={'/consulting'}>
               모두 보기
             </Link>
-          </div>
+          </div> */}
         </div>
 
         <Spacing size={70} />
