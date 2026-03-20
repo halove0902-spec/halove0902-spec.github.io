@@ -69,7 +69,7 @@ function Contact() {
           </div>
 
           <div className="form-area">
-            <label htmlFor="message">신청 내용</label>
+            <label htmlFor="message">신청 이유</label>
             <textarea
               rows={4}
               cols={50}
@@ -77,10 +77,13 @@ function Contact() {
               value={message}
               onChange={(e) => setMessage(e.target.value)}
             ></textarea>
+            <p>상담 목적에 따라 최적의 상담사를 배정해드립니다.</p>
           </div>
 
           <div className="form-area">
-            <label htmlFor="counselor">희망하는 상담사 (선택사항)</label>
+            <label htmlFor="counselor">
+              특별히 희망하시는 상담사가 있다면 아래 작성해주세요.
+            </label>
             <input
               type="text"
               value={counselor}
